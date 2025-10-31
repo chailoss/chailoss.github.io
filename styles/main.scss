@@ -111,6 +111,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.main-logo {
+    top: -135%;
+    aspect-ratio: 1 / 1;
+    width: fit-content;
+    height: auto;
+}
+
+.navbar-main {
+    padding-left: 100px;
+}
 
 .hero-icons {
     height: 100%; 
@@ -127,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
     // margin: 50px;
     font-family: 'Comfortaa'; 
 }
+
 
 // .icon-img {
 //     width: 100%;
@@ -162,6 +173,30 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-img-box {
     width: 38%;
     float: right;
+}
+
+.carousel-inner {
+    padding: 70px 0;
+}
+.carousel-item {
+    // height: 500px;
+}
+.carousel-caption {
+    height: fit-content !important;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        width: 100% !important;
+        align-items: center !important;
+        text-align: center;
+        margin: 0 auto !important;
+    }
+    .carousel-img-box {
+        position: relative;
+        width: 100%;
+        opacity: 0.2;
+    }
 }
 
 .carousel-panel {
@@ -295,9 +330,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-inner-s {
+
     /* font-weight: bold; */
 }
 .footer-inner-r {
+    
     /* font-weight: bold; */
 }
 

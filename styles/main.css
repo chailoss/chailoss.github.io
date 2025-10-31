@@ -112,6 +112,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 370px;
   }
 }
+.main-logo {
+  top: -135%;
+  aspect-ratio: 1/1;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+
+.navbar-main {
+  padding-left: 100px;
+}
+
 .hero-icons {
   height: 100%;
 }
@@ -150,6 +162,28 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
+.carousel-inner {
+  padding: 70px 0;
+}
+
+.carousel-caption {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center;
+    margin: 0 auto !important;
+  }
+  .carousel-img-box {
+    position: relative;
+    width: 100%;
+    opacity: 0.2;
+  }
+}
 .carousel-panel {
   position: absolute;
   bottom: 10%;
